@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6062" started-at="2019-11-04T12:08:44 AEDT" finished-at="2019-11-04T12:08:50 AEDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6062" started-at="2019-11-04T12:08:44 AEDT" finished-at="2019-11-04T12:08:50 AEDT">
+      <class name="TestNG.seltest1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:TestNG.seltest1@35d176f7]" name="launch" is-config="true" duration-ms="5455" started-at="2019-11-04T12:08:44 AEDT" finished-at="2019-11-04T12:08:49 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="verifylogin()[pri:0, instance:TestNG.seltest1@35d176f7]" name="verifylogin" duration-ms="507" started-at="2019-11-04T12:08:49 AEDT" finished-at="2019-11-04T12:08:50 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method status="PASS" signature="close()[pri:0, instance:TestNG.seltest1@35d176f7]" name="close" is-config="true" duration-ms="65" started-at="2019-11-04T12:08:50 AEDT" finished-at="2019-11-04T12:08:50 AEDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestNG.seltest1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
