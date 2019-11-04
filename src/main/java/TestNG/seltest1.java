@@ -17,7 +17,6 @@ public class seltest1 {
 		  driver.manage().window().maximize(); //maximize the window
 		  //driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
    }
-
   @Test
   public void verifylogin() {
 	  //add test cases here for module5 case study
@@ -27,7 +26,7 @@ public class seltest1 {
 	  driver.findElement(By.xpath("//div[@class='row']")).isDisplayed();
 	  
 	  System.out.println(driver.findElement(By.xpath("//div[@class='row']")).isDisplayed());
-  }
+   }
    @AfterMethod
    public void close() {
 	   driver.close();
