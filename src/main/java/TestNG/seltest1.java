@@ -1,5 +1,7 @@
 package TestNG;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -23,6 +25,7 @@ public class seltest1 {
 	  driver.findElement(By.name("login")).sendKeys("neelima");
 	  driver.findElement(By.name("password")).sendKeys("neelima");
 	  driver.findElement(By.name("click")).click();
+	  driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	  driver.findElement(By.xpath("//div[@class='row']")).isDisplayed();
 	  
 	  System.out.println(driver.findElement(By.xpath("//div[@class='row']")).isDisplayed());
